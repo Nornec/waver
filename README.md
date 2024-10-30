@@ -1,7 +1,8 @@
 # waver
-Turns a mono .wav file (or the left channel of a stereo .wav file) into raw data and chucks the percentage value of the data into a `.wtd` file
-  The `.wtd` file format is used specifically for Midinous to read in as a wavetable, but it is stored as encoded plain text
-  `.wtd` format:
+Turns a mono .wav file (or the left channel of a stereo .wav file) into raw data and chucks the percentage value of the data into a `.wtd` file. 
+The `.wtd` file format is used specifically for Midinous to read in as a wavetable, but it is stored as encoded plain text
+
+## `.wtd` format:
 ```
   line | description
      1 | wavetable name (alphanumeric only, starting with an alpha character or underscore)
